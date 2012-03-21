@@ -5,7 +5,7 @@ function parse_git_branch {
 export CLICOLOR=1
 # export PS1="\w\[\033[31m\] \[\033[00m\]>: "
 export PS1="\w\[\033[31m\]\[\033[00m\]\$(parse_git_branch) >: "
-export EDITOR="mate"
+export EDITOR="mate -w"
 
 alias edit_profile='mate ~/.bash_profile'
 alias edit_irbrc='mate ~/.irbrc'
