@@ -148,12 +148,6 @@ alias csd='cap staging deploy'
 
 alias clip='pbcopy'
 
-##
-# Your previous /Users/tom/.bash_profile file was backed up as /Users/tom/.bash_profile.macports-saved_2009-11-24_at_21:36:56
-##
-
-# MacPorts Installer addition on 2009-11-24_at_21:36:56: adding an appropriate PATH variable for use with MacPorts.
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH
-# Finished adapting your PATH environment variable for use with MacPorts.
+export PATH=/usr/local/bin:$PATH # http://stackoverflow.com/questions/6770649/repairing-postgresql-after-upgrading-to-osx-10-7-lion
 
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"  # This loads RVM into a shell session.
