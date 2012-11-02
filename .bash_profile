@@ -142,7 +142,7 @@ alias rdfl='rake db:fixtures:load'
 alias rdr='rake db:rollback'
 alias rroutes='rake routes'
 alias mroutes='rroutes | mate'
-alias rmate='mate *.rb *.ru *.js Rakefile README* app config Gemfile* doc examples db lib public script spec test stories features'
+alias rmate='mate *.rb *.ru *.js Rakefile README* app config Gemfile* doc examples db lib public script spec test stories features .gems .current_user'
 # capistrano
 alias csd='cap staging deploy'
 
